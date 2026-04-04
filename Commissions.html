@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Tortledove Portfolio</title>
+<title>Macsen Evans Portfolio</title>
+<link rel="icon" type="image/x-icon" href="Images/FrogPageIcon.png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="app.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: "Funnel Display", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:1;cursor:pointer}
 .w3-half img:hover{opacity:0.9}
@@ -25,19 +26,18 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-  <img src="Images/FrogIcon.png" alt="FrogIcon" width="value" height="value">
+    <img src="Images/MEvansFrogLogo.png" alt="MacsenEvansFrogLogo" width="value" height="value">
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Commissions and Collaborations</a> 
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Commissions</a> 
     <a href="index.html" class="w3-bar-item w3-button w3-hover-orange">Back Home</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Contact</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
-  <img src="Images/TortleLogo.png" alt="TortleLogo" width="value" height="value">
+  <img src="Images/MEvansLogo.png" alt="MacsenEvansLogo" width="value" height="value">
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -48,10 +48,8 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Commissions and Collaborations</b></h1>
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Showcase</b></h1>
-    <p>Ive been lucky to work on a handful of great projects some small, some large, and Im always looking for more intresting
-      projects to work on.
+    <h1 class="w3-jumbo"><b>Commissions</b></h1>
+    <p>This page is a collection of a handful of projects and graphics I've previously been hired to create, ranging from game assets to branding assets and for-print graphics.
     </p>
     <hr style="width:50px;border:5px solid orange" class="w3-round">
   </div>
@@ -59,18 +57,21 @@ body {font-size:16px;}
   <!-- Photo grid (modal) -->
 
   <div class="w3-container" id="contact" style="margin-top:50px">
-    <h1 class="center">Minecraft</h1>
-    <p>Art commissioned for a modded Minecraft server, these are just a handfull of the many armor sets and various items and tools designed.</p>
-    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Crystal Mines Supernova</b></h1>
+    <p>Ive been working with <a href="https://diceratopsgames.squarespace.com/" target="_blank">Diceratops Games</a> to bring to life
+      their game Mana Mania (originally titled Stoicheion). This started as me just redesigning the elemental icons before they brought
+      me on board for design consulting, ending with a successful Kickstarter funding campagin.
+    </p>
+    <hr style="width:1000px;border:5px solid orange" class="w3-round">
   </div>
 
   <div class="w3-row-padding">
     <div class="w3-half">
-      <img src="Images/Commissions/MinecraftArmors.png" style="width: 100%" onclick="onClick(this)" alt="Mincraft Armors">
+      <img src="Images/Commissions/Stoicheion_AltCard Design_7.png" style="width: 100%" onclick="onClick(this)" alt="Stoicheion Designs">
     </div>
-
     <div class="w3-half">
-      <img src="Images/Commissions/MinecraftFoodstuffs.png" style="width: 100%" onclick="onClick(this)" alt="Minecraft Foodstuffs">
+      <img src="https://images.squarespace-cdn.com/content/v1/64e25f9b1d0963279d568622/09f80f43-bd32-4a36-bc01-c516a832ad0a/Kickstarter+Project+Image_10.png?format=1000w" style="width: 100%" onclick="onClick(this)" alt="Mana Mania Kickstarter Page">
+      <img src="Images/Commissions/Stoicheion_DesignIterations.png" style="width: 100%" onclick="onClick(this)" alt="Old Design Iterations">
     </div>
   </div>
 
@@ -149,13 +150,8 @@ body {font-size:16px;}
     </div>
   </div>
   
-  <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid orange" class="w3-round">
-    <p>Want to contact me? Send a message or find me at these socials!</p>
-    <a href="https://twitter.com/DoveTortle" class="fa fa-twitter"></a>
-    <a href="https://bsky.app/profile/tortledove.bsky.social" class="fa fa-bluesky"><img src="Images/bluesky-social-logo-75CF77F3F7-seeklogo.com.png" width="30" height="27"></a>
+    <hr style="width:1000px;border:5px solid orange" class="w3-round">
     <pre></pre>
   </div>
 

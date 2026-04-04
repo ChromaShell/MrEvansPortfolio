@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Tortledove Portfolio</title>
+<title>Macsen Evans Portfolio</title>
+<link rel="icon" type="image/x-icon" href="Images/FrogPageIcon.png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="app.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: "Funnel Display", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:1;cursor:pointer}
 .w3-half img:hover{opacity:0.9}
@@ -25,19 +26,18 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-  <img src="Images/FrogIcon.png" alt="FrogIcon" width="value" height="value">
+    <img src="Images/MEvansFrogLogo.png" alt="MacsenEvansFrogLogo" width="value" height="value">
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">GBC Pokemon</a> 
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Collaborations</a> 
     <a href="index.html" class="w3-bar-item w3-button w3-hover-orange">Back Home</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Contact</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
-  <img src="Images/TortleLogo.png" alt="TortleLogo" width="value" height="value">
+  <img src="Images/MEvansLogo.png" alt="MacsenEvansLogo" width="value" height="value">
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -48,171 +48,49 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>GBC Pokemon</b></h1>
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Showcase</b></h1>
-    <p>An exersice I started in Febuary 2023 to put on "paper" the many creature ideas Ive had floating around my head as well 
-        as keeping myself spriting. I started with the goal of 150 creature designs but as I went along the project grew in scope 
-        to now include a region, dex entries, companion characters, and more.
+    <h1 class="w3-jumbo"><b>Collaborations</b></h1>
+    <p>This page is a collection of some of the many opportunities I've had to work with groups small and large on games and community projects.
     </p>
-    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <hr style="width:1000px;border:5px solid orange" class="w3-round">
   </div>
   
   <!-- Photo grid (modal) -->
+  <div class="w3-container" id="contact" style="margin-top:50px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Mana Mania</b></h1>
+    <p>Ive been working with <a href="https://diceratopsgames.squarespace.com/" target="_blank">Diceratops Games</a> to bring to life
+      their game Mana Mania (originally titled Stoicheion). This started as me just redesigning the elemental icons before they brought
+      me on board for design consulting, ending with a successful Kickstarter funding campagin.
+    </p>
+    <hr style="width:1000px;border:5px solid orange" class="w3-round">
+  </div>
+
   <div class="w3-row-padding">
     <div class="w3-half">
-      <img src="Images/PokeGBC/Cubrush_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Terrath_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Igneat_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Dewplet_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Krashen_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Cocoma_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Beakadet_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Admorial_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Boremore_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Choward_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Daikid_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Wabashi_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Deadcap_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Gnold_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Maumau_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Cublok_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Bassault_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Nosfang_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Warbble_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Calikoi_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Plushea_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Crablade_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Hurchin_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Byscorn_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
+      <img src="Images/Commissions/Stoicheion_AltCard Design_7.png" style="width: 100%" onclick="onClick(this)" alt="Stoicheion Designs">
     </div>
-
     <div class="w3-half">
-        <img src="Images/PokeGBC/Brushell_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Salveat_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Apopheat_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Delinqiud_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Vibeetle_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Dreamoth_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Flutenant_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Bormol_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Puffup_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Saguard_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Daidish_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Fungish_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Minome_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Denezumi_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Gatomb_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Brikube_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Renfang_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Whispawn_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Ribellow_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Koihaku_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Faengel_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Cancisor_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Occolt_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-        <img src="Images/PokeGBC/Habatack_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
+      <img src="https://images.squarespace-cdn.com/content/v1/64e25f9b1d0963279d568622/09f80f43-bd32-4a36-bc01-c516a832ad0a/Kickstarter+Project+Image_10.png?format=1000w" style="width: 100%" onclick="onClick(this)" alt="Mana Mania Kickstarter Page">
+      <img src="Images/Commissions/Stoicheion_DesignIterations.png" style="width: 100%" onclick="onClick(this)" alt="Old Design Iterations">
     </div>
   </div>
 
   <div class="w3-container" id="contact" style="margin-top:50px">
-    <h1 class="center">Region Map and Minimap Concepts</h1>
-    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>University of Delaware Game Jam</b></h1>
+    <p>Though I never the attened University of Delaware I had the oppourtunity to develop the logo for their 2023
+      Enviromental Awareness Game Jam, designed to paralell the logo of UD's enviromantal program (featured right), the Jam focused on the enviromental impacts of our 
+      local oceans and bays. You can explore the event and all the participant's entries <a href="https://itch.io/jam/climate-change-game-jam" target="_blank">Here</a>.
+    </p>
+    <hr style="width:1000px;border:5px solid orange" class="w3-round">
   </div>
-
-<div class="w3-row-padding">
-  <img src="Images/PokeGBC/RegionMap_Full_Display.png" style="width: 100%" onclick="onClick(this)" alt="Overworld Map">
-  <img src="Images/PokeGBC/RegionMiniMap.png" style="width: 50%" onclick="onClick(this)" alt="Mini Map">
-</div>
-
-<div class="w3-container" id="contact" style="margin-top:50px">
-  <h1 class="center">More dex entries</h1>
-  <hr style="width:50px;border:5px solid orange" class="w3-round">
-</div>
 
   <div class="w3-row-padding">
     <div class="w3-half">
-      <img src="Images/PokeGBC/Ampelle_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Orupt_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Kilubit_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Gillabit_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Majji_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Bandal_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Atrox_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Ikthyore_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Sarchon_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Discool_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Nimbaleen_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Monobake_L_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Corsheep_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Sootot_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Hearthome_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Hulkoala_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Cadavarm_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Ichiu_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Shiryun_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-
+      <img src="Images/Commissions/UDGameJamLog.png" style="width: 100%" onclick="onClick(this)" alt="Stoicheion Designs">
     </div>
     <div class="w3-half">
-      <img src="Images/PokeGBC/Orbomb_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Yakoat_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Metabit_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Ajji_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Tarajji_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Liron_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Ithyo_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Suchus_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Shmove_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Aerobeat_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Monobake_U_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Monobake_S_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Chramium_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Ashelf_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Kowallop_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Risarm_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Morghoul_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/Niryu_DexEntry.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      
+      <img src="Images/Commissions/UofD-graphic-1-1-1024x996.png" style="width: 100%" onclick="onClick(this)" alt="Stoicheion Designs">
     </div>
-</div>
-
-<div class="w3-container" id="contact" style="margin-top:50px">
-  <h1 class="center">Character sprites and concepts</h1>
-  <hr style="width:50px;border:5px solid orange" class="w3-round">
-</div>
-
-<div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="Images/PokeGBC/GymLeader_1.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/GymLeader_3.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/GymLeader_5.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/GymLeader_7.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-    </div>
-    <div class="w3-half">
-      <img src="Images/PokeGBC/GymLeader_2.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/GymLeader_4.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/GymLeader_6.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-      <img src="Images/PokeGBC/GymLeader_8.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-    </div>
-</div>
-
-<div class="w3-container" id="contact" style="margin-top:50px">
-  <h1 class="center">Unfinished and scrapped content</h1>
-  <hr style="width:50px;border:5px solid orange" class="w3-round">
-</div>
-
-<div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="Images/PokeGBC/Crystal_DexPlans.png" style="width: 100%" onclick="onClick(this)" alt="Full dex plans">
-      <img src="Images/PokeGBC/Crystal_E4.png" style="width: 100%" onclick="onClick(this)" alt="Unfinished Elite Four">
-      <img src="Images/PokeGBC/Crystal_Scrap_Rainbow.gif" style="width: 100%" onclick="onClick(this)" alt="Pokemon GBC Project">
-    </div>
-    <div class="w3-half">
-      <img src="Images/PokeGBC/Crystal_Dex_ScrappedSprites.png" style="width: 100%" onclick="onClick(this)" alt="Scrapped sprites and designs">
-      <img src="Images/PokeGBC/FossilsDisplay.png" style="width: 100%" onclick="onClick(this)" alt="Pokemon Fossils">
-      <img src="Images/PokeGBC/NewFossils.png" style="width: 100%" onclick="onClick(this)" alt="Second set of Pokemon Fossils">
-      <img src="Images/PokeGBC/MiniSprite.gif" style="width: 100%" onclick="onClick(this)" alt="Pokemon menu sprites">
-    </div>
-</div>
+  </div>
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -223,14 +101,8 @@ body {font-size:16px;}
     </div>
   </div>
   
-  <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid orange" class="w3-round">
-    <p>Want to contact me? Send a message or find me at these socials!</p>
-    <a href="https://twitter.com/DoveTortle" class="fa fa-twitter"></a>
-    <a href="https://bsky.app/profile/tortledove.bsky.social" class="fa fa-bluesky"><img src="Images/bluesky-social-logo-75CF77F3F7-seeklogo.com.png" width="30" height="27"></a>
-    <pre></pre>
+    <hr style="width:1000px;border:5px solid orange" class="w3-round">
     <pre></pre>
   </div>
 
